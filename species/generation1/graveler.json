@@ -1,27 +1,11 @@
 {
-  "implemented": true,
   "name": "Graveler",
   "nationalPokedexNumber": 75,
-  "primaryType": "rock",
   "secondaryType": "ground",
-  "abilities": [
-    "rockhead",
-    "sturdy",
-    "h:sandveil"
-  ],
-  "baseStats": {
-    "hp": 55,
-    "attack": 95,
-    "defence": 115,
-    "special_attack": 45,
-    "special_defence": 45,
-    "speed": 35
-  },
   "features": [
     "alolan"
   ],
   "catchRate": 120,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "forms": [
     {
@@ -181,15 +165,15 @@
           },
           {
             "item": "cobblemon:cell_battery",
-            "percentage": 5.0
+            "percentage": 5
           },
           {
             "item": "cobblemon:magnet",
-            "percentage": 5.0
+            "percentage": 5
           },
           {
             "item": "cobblemon:shuca_berry",
-            "percentage": 5.0
+            "percentage": 5
           }
         ]
       }
@@ -197,169 +181,7 @@
   ],
   "baseExperienceYield": 137,
   "experienceGroup": "medium_slow",
-  "eggCycles": 15,
-  "eggGroups": [
-    "mineral"
-  ],
-  "drops": {
-    "amount": 5,
-    "entries": [
-      {
-        "item": "minecraft:flint",
-        "quantityRange": "0-2"
-      },
-      {
-        "item": "cobblemon:everstone",
-        "percentage": 5.0
-      },
-      {
-        "item": "cobblemon:black_augurite",
-        "percentage": 5.0
-      },
-      {
-        "item": "cobblemon:rindo_berry",
-        "percentage": 5.0
-      }
-    ]
-  },
-  "moves": [
-    "1:defensecurl",
-    "1:mudsport",
-    "1:rockpolish",
-    "1:tackle",
-    "10:rollout",
-    "12:magnitude",
-    "16:rockthrow",
-    "18:smackdown",
-    "22:bulldoze",
-    "24:selfdestruct",
-    "30:stealthrock",
-    "34:rockblast",
-    "40:earthquake",
-    "44:explosion",
-    "50:doubleedge",
-    "54:stoneedge",
-    "tm:attract",
-    "tm:brickbreak",
-    "tm:bulldoze",
-    "tm:captivate",
-    "tm:confide",
-    "tm:dig",
-    "tm:doubleteam",
-    "tm:earthquake",
-    "tm:endure",
-    "tm:explosion",
-    "tm:facade",
-    "tm:fireblast",
-    "tm:flamethrower",
-    "tm:fling",
-    "tm:focuspunch",
-    "tm:frustration",
-    "tm:gyroball",
-    "tm:hiddenpower",
-    "tm:incinerate",
-    "tm:naturalgift",
-    "tm:naturepower",
-    "tm:poweruppunch",
-    "tm:protect",
-    "tm:rest",
-    "tm:return",
-    "tm:rockclimb",
-    "tm:rockpolish",
-    "tm:rockslide",
-    "tm:rocksmash",
-    "tm:rocktomb",
-    "tm:round",
-    "tm:sandstorm",
-    "tm:secretpower",
-    "tm:sleeptalk",
-    "tm:smackdown",
-    "tm:stealthrock",
-    "tm:stoneedge",
-    "tm:strength",
-    "tm:substitute",
-    "tm:sunnyday",
-    "tm:swagger",
-    "tm:toxic",
-    "tutor:ancientpower",
-    "tutor:attract",
-    "tutor:bide",
-    "tutor:block",
-    "tutor:bodyslam",
-    "tutor:brickbreak",
-    "tutor:counter",
-    "tutor:curse",
-    "tutor:defensecurl",
-    "tutor:dig",
-    "tutor:doubleedge",
-    "tutor:doubleteam",
-    "tutor:dynamicpunch",
-    "tutor:earthpower",
-    "tutor:earthquake",
-    "tutor:endure",
-    "tutor:explosion",
-    "tutor:facade",
-    "tutor:fireblast",
-    "tutor:firepunch",
-    "tutor:fissure",
-    "tutor:flamethrower",
-    "tutor:focuspunch",
-    "tutor:frustration",
-    "tutor:harden",
-    "tutor:headbutt",
-    "tutor:hiddenpower",
-    "tutor:irondefense",
-    "tutor:magnitude",
-    "tutor:megapunch",
-    "tutor:metronome",
-    "tutor:mimic",
-    "tutor:mudslap",
-    "tutor:protect",
-    "tutor:rage",
-    "tutor:rest",
-    "tutor:return",
-    "tutor:rockslide",
-    "tutor:rocksmash",
-    "tutor:rockthrow",
-    "tutor:rollout",
-    "tutor:sandattack",
-    "tutor:sandstorm",
-    "tutor:seismictoss",
-    "tutor:selfdestruct",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:stealthrock",
-    "tutor:stompingtantrum",
-    "tutor:strength",
-    "tutor:submission",
-    "tutor:substitute",
-    "tutor:suckerpunch",
-    "tutor:sunnyday",
-    "tutor:superpower",
-    "tutor:swagger",
-    "tutor:tackle",
-    "tutor:takedown",
-    "tutor:thunderpunch",
-    "tutor:toxic"
-  ],
-  "labels": [
-    "gen1",
-    "kanto_regional"
-  ],
-  "pokedex": [
-    "cobblemon.species.graveler.desc"
-  ],
   "preEvolution": "geodude",
-  "evolutions": [
-    {
-      "id": "graveler_golem",
-      "variant": "trade",
-      "result": "golem",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": []
-    }
-  ],
   "baseScale": 1.1,
   "hitbox": {
     "width": 0.9,
@@ -377,6 +199,5 @@
   },
   "height": 10,
   "weight": 1050,
-  "aspects": [],
-  "cannotDynamax": false
+  "aspects": []
 }

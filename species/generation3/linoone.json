@@ -1,35 +1,10 @@
 {
-  "implemented": true,
   "name": "Linoone",
   "nationalPokedexNumber": 264,
-  "primaryType": "normal",
-  "abilities": [
-    "pickup",
-    "gluttony",
-    "h:quickfeet"
-  ],
-  "drops": {
-    "amount": 1,
-    "entries": [
-      {
-        "item": "cobblemon:oran_berry",
-        "percentage": 5.0
-      }
-    ]
-  },
-  "baseStats": {
-    "hp": 78,
-    "attack": 70,
-    "defence": 61,
-    "special_attack": 50,
-    "special_defence": 61,
-    "speed": 100
-  },
   "features": [
     "galarian"
   ],
   "catchRate": 90,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "forms": [
     {
@@ -171,7 +146,7 @@
         "entries": [
           {
             "item": "cobblemon:chople_berry",
-            "percentage": 5.0
+            "percentage": 5
           }
         ]
       }
@@ -179,10 +154,6 @@
   ],
   "baseExperienceYield": 147,
   "experienceGroup": "medium_fast",
-  "eggCycles": 15,
-  "eggGroups": [
-    "field"
-  ],
   "behaviour": {
     "moving": {
       "walk": {
@@ -196,133 +167,6 @@
       "light": "0-4"
     }
   },
-  "moves": [
-    "1:babydolleyes",
-    "1:growl",
-    "1:pinmissile",
-    "1:playrough",
-    "1:rototiller",
-    "1:sandattack",
-    "1:switcheroo",
-    "1:tackle",
-    "1:tailwhip",
-    "9:covet",
-    "12:headbutt",
-    "13:odorsleuth",
-    "15:honeclaws",
-    "17:mudsport",
-    "18:furyswipes",
-    "23:rest",
-    "27:bestow",
-    "28:takedown",
-    "32:slash",
-    "33:fling",
-    "38:flail",
-    "43:bellydrum",
-    "48:doubleedge",
-    "tm:attract",
-    "tm:blizzard",
-    "tm:bodyslam",
-    "tm:captivate",
-    "tm:chargebeam",
-    "tm:charm",
-    "tm:confide",
-    "tm:cut",
-    "tm:dig",
-    "tm:doubleteam",
-    "tm:echoedvoice",
-    "tm:endure",
-    "tm:facade",
-    "tm:fling",
-    "tm:frustration",
-    "tm:gigaimpact",
-    "tm:grassknot",
-    "tm:gunkshot",
-    "tm:helpinghand",
-    "tm:hiddenpower",
-    "tm:honeclaws",
-    "tm:hyperbeam",
-    "tm:hypervoice",
-    "tm:icebeam",
-    "tm:icywind",
-    "tm:irontail",
-    "tm:mudshot",
-    "tm:naturalgift",
-    "tm:pinmissile",
-    "tm:playrough",
-    "tm:protect",
-    "tm:raindance",
-    "tm:rest",
-    "tm:retaliate",
-    "tm:return",
-    "tm:roar",
-    "tm:rocksmash",
-    "tm:round",
-    "tm:secretpower",
-    "tm:seedbomb",
-    "tm:shadowball",
-    "tm:shadowclaw",
-    "tm:shockwave",
-    "tm:sleeptalk",
-    "tm:snore",
-    "tm:stompingtantrum",
-    "tm:strength",
-    "tm:substitute",
-    "tm:sunnyday",
-    "tm:surf",
-    "tm:swagger",
-    "tm:swift",
-    "tm:tailslap",
-    "tm:thief",
-    "tm:throatchop",
-    "tm:thunder",
-    "tm:thunderbolt",
-    "tm:thunderwave",
-    "tm:toxic",
-    "tm:trick",
-    "tm:waterpulse",
-    "tm:whirlpool",
-    "tm:workup",
-    "tutor:babydolleyes",
-    "tutor:bodyslam",
-    "tutor:covet",
-    "tutor:defensecurl",
-    "tutor:doubleedge",
-    "tutor:endure",
-    "tutor:extremespeed",
-    "tutor:furycutter",
-    "tutor:gunkshot",
-    "tutor:headbutt",
-    "tutor:helpinghand",
-    "tutor:hypervoice",
-    "tutor:icywind",
-    "tutor:irontail",
-    "tutor:lastresort",
-    "tutor:mimic",
-    "tutor:mudslap",
-    "tutor:protect",
-    "tutor:rollout",
-    "tutor:seedbomb",
-    "tutor:shockwave",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:stompingtantrum",
-    "tutor:substitute",
-    "tutor:superfang",
-    "tutor:swagger",
-    "tutor:swift",
-    "tutor:throatchop",
-    "tutor:thunderwave",
-    "tutor:trick",
-    "tutor:waterpulse"
-  ],
-  "labels": [
-    "gen3",
-    "hoenn_regional"
-  ],
-  "pokedex": [
-    "cobblemon.species.linoone.desc"
-  ],
   "preEvolution": "zigzagoon",
   "baseScale": 1,
   "hitbox": {
@@ -341,7 +185,5 @@
   },
   "height": 5,
   "weight": 325,
-  "aspects": [],
-  "evolutions": [],
-  "cannotDynamax": false
+  "aspects": []
 }

@@ -1,21 +1,8 @@
 {
   "name": "Cramorant",
   "nationalPokedexNumber": 845,
-  "primaryType": "flying",
   "secondaryType": "water",
-  "abilities": [
-    "gulpmissile"
-  ],
-  "baseStats": {
-    "hp": 70,
-    "attack": 85,
-    "defence": 55,
-    "special_attack": 85,
-    "special_defence": 95,
-    "speed": 85
-  },
   "catchRate": 45,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "forms": [
     {
@@ -111,74 +98,6 @@
   ],
   "baseExperienceYield": 166,
   "experienceGroup": "medium_fast",
-  "eggCycles": 20,
-  "eggGroups": [
-    "water_1",
-    "flying"
-  ],
-  "moves": [
-    "1:belch",
-    "1:peck",
-    "1:spitup",
-    "1:stockpile",
-    "1:swallow",
-    "7:watergun",
-    "14:furyattack",
-    "21:pluck",
-    "28:dive",
-    "35:drillpeck",
-    "42:amnesia",
-    "49:thrash",
-    "56:hydropump",
-    "egg:aerialace",
-    "egg:aquaring",
-    "egg:defog",
-    "egg:featherdance",
-    "egg:roost",
-    "tm:agility",
-    "tm:airslash",
-    "tm:amnesia",
-    "tm:assurance",
-    "tm:attract",
-    "tm:blizzard",
-    "tm:bravebird",
-    "tm:dive",
-    "tm:endure",
-    "tm:facade",
-    "tm:fly",
-    "tm:gigaimpact",
-    "tm:hurricane",
-    "tm:hydropump",
-    "tm:hyperbeam",
-    "tm:icebeam",
-    "tm:icywind",
-    "tm:liquidation",
-    "tm:protect",
-    "tm:raindance",
-    "tm:rest",
-    "tm:reversal",
-    "tm:round",
-    "tm:scald",
-    "tm:sleeptalk",
-    "tm:snore",
-    "tm:steelwing",
-    "tm:substitute",
-    "tm:superpower",
-    "tm:surf",
-    "tm:thief",
-    "tm:throatchop",
-    "tm:uproar",
-    "tm:weatherball",
-    "tm:whirlpool",
-    "tutor:dualwingbeat"
-  ],
-  "labels": [
-    "gen8"
-  ],
-  "pokedex": [
-    "cobblemon.species.cramorant.desc"
-  ],
-  "evolutions": [],
   "baseScale": 1,
   "hitbox": {
     "width": 1,
@@ -196,26 +115,5 @@
   },
   "height": 8,
   "weight": 180,
-  "aspects": [],
-  "cannotDynamax": false,
-  "drops": {
-    "amount": 6,
-    "entries": [
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "0-2"
-      },
-      {
-        "item": "minecraft:chicken"
-      },
-      {
-        "item": "minecraft:cod",
-        "quantityRange": "0-2"
-      },
-      {
-        "item": "cobblemon:wacan_berry",
-        "percentage": 5.0
-      }
-    ]
-  }
+  "aspects": []
 }

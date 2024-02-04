@@ -1,20 +1,7 @@
 {
   "name": "Gimmighoul",
   "nationalPokedexNumber": 999,
-  "primaryType": "ghost",
-  "abilities": [
-    "rattled"
-  ],
-  "baseStats": {
-    "hp": 45,
-    "attack": 30,
-    "defence": 70,
-    "special_attack": 75,
-    "special_defence": 70,
-    "speed": 10
-  },
   "catchRate": 45,
-  "maleRatio": -1,
   "baseExperienceYield": 60,
   "baseFriendship": 50,
   "evYield": {
@@ -26,49 +13,9 @@
     "speed": 0
   },
   "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
-  ],
-  "moves": [
-    "1:astonish",
-    "1:tackle",
-    "tm:confuseray",
-    "tm:endure",
-    "tm:hex",
-    "tm:lightscreen",
-    "tm:nastyplot",
-    "tm:nightshade",
-    "tm:powergem",
-    "tm:protect",
-    "tm:reflect",
-    "tm:rest",
-    "tm:shadowball",
-    "tm:sleeptalk",
-    "tm:substitute",
-    "tm:takedown",
-    "tm:terablast",
-    "tm:thief",
-    "tutor:astonish",
-    "tutor:tackle"
-  ],
-  "labels": [
-    "gen9"
-  ],
   "aspects": [],
   "height": 3,
   "weight": 50,
-  "evolutions": [
-    {
-      "id": "gimmighoul_gholdengo",
-      "variant": "level_up",
-      "result": "gholdengo",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": []
-    }
-  ],
-  "cannotDynamax": false,
   "forms": [
     {
       "name": "Roaming",
@@ -122,17 +69,5 @@
       "cannotDynamax": false,
       "battleOnly": false
     }
-  ],
-  "pokedex": [
-    "cobblemon.species.gimmighoul.desc"
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "minecraft:gold_nugget",
-        "quantityRange": "1-3"
-      }
-    ]
-  }
+  ]
 }

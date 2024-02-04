@@ -1,35 +1,8 @@
 {
   "name": "Wormadam",
   "nationalPokedexNumber": 413,
-  "primaryType": "bug",
   "secondaryType": "grass",
-  "abilities": [
-    "anticipation",
-    "h:overcoat"
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "minecraft:string",
-        "quantityRange": "0-2"
-      },
-      {
-        "item": "cobblemon:occa_berry",
-        "percentage": 5.0
-      }
-    ]
-  },
-  "baseStats": {
-    "hp": 60,
-    "attack": 59,
-    "defence": 85,
-    "special_attack": 79,
-    "special_defence": 105,
-    "speed": 36
-  },
   "catchRate": 45,
-  "maleRatio": 0,
   "shoulderMountable": false,
   "baseExperienceYield": 148,
   "baseFriendship": 70,
@@ -42,94 +15,9 @@
     "speed": 0
   },
   "experienceGroup": "medium_fast",
-  "eggCycles": 15,
-  "eggGroups": [
-    "bug"
-  ],
-  "moves": [
-    "1:bugbite",
-    "1:protect",
-    "1:quiverdance",
-    "1:suckerpunch",
-    "1:tackle",
-    "10:protect",
-    "15:bugbite",
-    "20:hiddenpower",
-    "23:confusion",
-    "26:razorleaf",
-    "29:growth",
-    "32:psybeam",
-    "35:captivate",
-    "38:flail",
-    "41:attract",
-    "44:psychic",
-    "47:leafstorm",
-    "50:bugbuzz",
-    "tm:attract",
-    "tm:bulletseed",
-    "tm:captivate",
-    "tm:confide",
-    "tm:doubleteam",
-    "tm:dreameater",
-    "tm:endure",
-    "tm:energyball",
-    "tm:facade",
-    "tm:flash",
-    "tm:frustration",
-    "tm:gigadrain",
-    "tm:gigaimpact",
-    "tm:grassknot",
-    "tm:hiddenpower",
-    "tm:hyperbeam",
-    "tm:infestation",
-    "tm:naturalgift",
-    "tm:protect",
-    "tm:psychic",
-    "tm:psychup",
-    "tm:raindance",
-    "tm:rest",
-    "tm:return",
-    "tm:round",
-    "tm:safeguard",
-    "tm:secretpower",
-    "tm:shadowball",
-    "tm:skillswap",
-    "tm:sleeptalk",
-    "tm:solarbeam",
-    "tm:strugglebug",
-    "tm:substitute",
-    "tm:sunnyday",
-    "tm:swagger",
-    "tm:thief",
-    "tm:toxic",
-    "tm:venoshock",
-    "tutor:allyswitch",
-    "tutor:bugbite",
-    "tutor:electroweb",
-    "tutor:endeavor",
-    "tutor:gigadrain",
-    "tutor:seedbomb",
-    "tutor:signalbeam",
-    "tutor:skillswap",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:stringshot",
-    "tutor:suckerpunch",
-    "tutor:synthesis",
-    "tutor:telekinesis",
-    "tutor:uproar",
-    "tutor:worryseed"
-  ],
-  "labels": [
-    "gen4"
-  ],
-  "pokedex": [
-    "cobblemon.species.wormadam.desc"
-  ],
   "height": 5,
   "weight": 65,
   "preEvolution": "burmy",
-  "evolutions": [],
   "forms": [
     {
       "name": "Sandy",
@@ -372,6 +260,5 @@
       "battleOnly": false
     }
   ],
-  "aspects": [],
-  "cannotDynamax": false
+  "aspects": []
 }

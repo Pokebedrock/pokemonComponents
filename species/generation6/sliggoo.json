@@ -1,25 +1,10 @@
 {
   "name": "Sliggoo",
   "nationalPokedexNumber": 705,
-  "primaryType": "dragon",
-  "abilities": [
-    "sapsipper",
-    "hydration",
-    "h:gooey"
-  ],
-  "baseStats": {
-    "hp": 68,
-    "attack": 75,
-    "defence": 53,
-    "special_attack": 83,
-    "special_defence": 113,
-    "speed": 60
-  },
   "features": [
     "hisuian"
   ],
   "catchRate": 45,
-  "maleRatio": 0.5,
   "shoulderMountable": false,
   "forms": [
     {
@@ -136,100 +121,7 @@
   ],
   "baseExperienceYield": 158,
   "experienceGroup": "slow",
-  "eggCycles": 40,
-  "eggGroups": [
-    "dragon"
-  ],
-  "moves": [
-    "1:absorb",
-    "1:acidarmor",
-    "1:bubble",
-    "1:dragonbreath",
-    "1:tackle",
-    "1:watergun",
-    "13:bide",
-    "15:protect",
-    "20:flail",
-    "25:waterpulse",
-    "30:raindance",
-    "35:dragonpulse",
-    "43:curse",
-    "49:bodyslam",
-    "56:muddywater",
-    "tm:acidspray",
-    "tm:attract",
-    "tm:blizzard",
-    "tm:bodyslam",
-    "tm:charm",
-    "tm:chillingwater",
-    "tm:confide",
-    "tm:doubleteam",
-    "tm:dracometeor",
-    "tm:dragonpulse",
-    "tm:endure",
-    "tm:facade",
-    "tm:frustration",
-    "tm:hiddenpower",
-    "tm:icebeam",
-    "tm:infestation",
-    "tm:irontail",
-    "tm:muddywater",
-    "tm:mudshot",
-    "tm:outrage",
-    "tm:protect",
-    "tm:raindance",
-    "tm:rest",
-    "tm:return",
-    "tm:rockslide",
-    "tm:round",
-    "tm:secretpower",
-    "tm:sleeptalk",
-    "tm:sludgebomb",
-    "tm:sludgewave",
-    "tm:snore",
-    "tm:substitute",
-    "tm:sunnyday",
-    "tm:swagger",
-    "tm:takedown",
-    "tm:terablast",
-    "tm:thunder",
-    "tm:thunderbolt",
-    "tm:toxic",
-    "tm:waterpulse",
-    "tutor:dracometeor",
-    "tutor:dragonpulse",
-    "tutor:irontail",
-    "tutor:outrage",
-    "tutor:shockwave",
-    "tutor:skittersmack",
-    "tutor:snore",
-    "tutor:waterpulse"
-  ],
-  "labels": [
-    "gen6",
-    "kalos_regional"
-  ],
-  "pokedex": [
-    "cobblemon.species.sliggoo.desc"
-  ],
   "preEvolution": "goomy",
-  "evolutions": [
-    {
-      "id": "sliggoo_goodra",
-      "variant": "level_up",
-      "result": "goodra",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-        "aquatail"
-      ],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 50
-        }
-      ]
-    }
-  ],
   "baseScale": 1,
   "hitbox": {
     "width": 1,
@@ -247,19 +139,5 @@
   },
   "height": 8,
   "weight": 175,
-  "aspects": [],
-  "cannotDynamax": false,
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "minecraft:slime_ball",
-        "quantityRange": "0-2"
-      },
-      {
-        "item": "cobblemon:haban_berry",
-        "percentage": 5.0
-      }
-    ]
-  }
+  "aspects": []
 }
