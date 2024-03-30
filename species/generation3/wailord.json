@@ -8,6 +8,8 @@
         "avoidsLand": true
       },
       "swim": {
+        "dragFactor": 0.98,
+        "swimSpeed": 0.05,
         "canSwimInWater": true,
         "canBreatheUnderwater": true,
         "canWalkOnWater": true
